@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='description' content=''>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Vcard</title>
+        <link rel='stylesheet' href='css/style.css'>
+        <link rel='author' href='humans.txt'>
+    </head>
+    <body>
+        <div class='page-wrapper'>
+            <div class='card'>
+                <div class='card-header'>
+                    <div class='avatar'>
+                        <img src='assets/avatar.png' alt='Avatar'>
+                    </div>
+                    <div class='titles'>
+                        <h1>
+                            Conrad Heron
+                        </h1>
+                        <h3>Digital Director</h3>
+                        <h4>Schrainerei 1535</h4>
+                    </div>
+                </div>
+                <div class='flex-row shortcuts-links'>
+                    <a href='#'><img src="assets/phone-call.svg" alt=""></a>
+                    <a href='#'><img src="assets/map-pin.svg" alt=""></a>
+                    <a href='#'><img src="assets/mail.svg" alt=""></a>
+                    <a href='#'><img src="assets/link.svg" alt=""></a>
+                    <a href='#'><img src="assets/qr-code.svg" alt=""></a>
+                </div>
+                <a href='#' class='button primary save'>
+                    <span class='label'>Save contact</span><img src='assets/download.svg' class='icon download'/>
+                </a>
+                <div class='button secondary show-hide show'>
+                    <span class='label show'>Show details</span>
+                    <span class='label hide'>Hide details</span>
+                    <img src='assets/chevron-down.svg' class='icon chevron show'/>
+                    <img src='assets/chevron-up.svg' class='icon chevron hide'/>
+                </div>
+                <div id='info-list' class='additional-info hidden'>
+                    <ul>
+                        <li>
+                            <h6 class='label'>Phone</h6>
+                            <a href='+33679696848' class='data-value'>+33 6 79 69 68 55</a>
+                        </li>
+                        <li>
+                            <h6 class='label'>Address</h6>
+                            <p class='data-value'>
+                                3 rue Jean Piret, <br>
+                                L-2750 Luxembourg
+                            </p>
+                        </li>
+                        <li>
+                            <h6 class='label'>Email</h6>
+                            <a href='mailto:cheron@gio.lu' class='data-value'>
+                                cheron@gio.lu
+                            </a>
+                        </li>
+                        <li>
+                            <h6 class='label'>Link</h6>
+                            <a href='https://gio.lu' class='data-value'>
+                                gio.lu
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class='page-footer'>
+                <div class='flex-row social-links'>
+                    <a href='/facebook'><img src="assets/facebook.svg" alt=""></a>
+                    <a href='/instagram'><img src="assets/instagram.svg" alt=""></a>
+                    <a href='/twitter'><img src="assets/twitter.svg" alt=""></a>
+                    <a href='/linkedin'><img src="assets/linkedin.svg" alt=""></a>
+                    <a href='/youtube'><img src="assets/youtube.svg" alt=""></a>
+                    <a href='/tiktok'><img src="assets/tiktok.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <script src='js/main.js'></script>
+    </body>
+</html>
