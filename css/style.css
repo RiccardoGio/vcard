@@ -32,8 +32,6 @@ body {
   padding: 1rem;
   color: var(--light);
   background-color: var(--light-grey);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--light)), to(var(--transparentGrey)));
-  background-image: linear-gradient(var(--light), var(--transparentGrey));
 }
 
 p {
